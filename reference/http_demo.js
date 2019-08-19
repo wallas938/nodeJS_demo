@@ -1,5 +1,4 @@
 const http = require('http');
-
 //CREATE SERVER OBJECT
 
 http.createServer((req, res) => {
