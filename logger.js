@@ -8,8 +8,6 @@ class Logger extends EventEmitter {
     }
 }
 
-const Logger = require('./logger');
-
 const logger =  new Logger();
 
 logger.on(
